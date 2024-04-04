@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="different_ways_to_start_building_a_view">
+    <title>Different ways to start building a view</title>
+    <shortdesc>When you build a view, you add fields from the <b>Data</b> pane. You can do this in
+        different ways.</shortdesc>
+    <prolog>
+        <author type="creator">Shri</author>
+        <critdates>
+            <created date="2024-04-04"/>
+        </critdates>
+    </prolog>
+    <conbody>
+        <p>For example:<ul id="ul_hz1_wfw_y1c">
+                <li>Drag fields from the <b>Data</b> pane and drop them onto the cards and shelves
+                    that are part of every Tableau worksheet.</li>
+                <li>Double-click one or more fields in the <b>Data</b> pane.</li>
+                <li>Select one or more fields in the <b>Data</b> pane and then choose a chart type
+                    from <b>Show Me</b>, which identifies the chart types that are appropriate for
+                    the fields you selected. For details, see <xref
+                        href="https://help.tableau.com/current/pro/desktop/en-us/buildauto_showme.htm"
+                        format="html" scope="external">Use Show Me to Start a View</xref>.</li>
+                <li>To start creating a tabular view, drop a field on the <b>Drop field here</b>
+                    grid. </li>
+            </ul><image href="Picture3.png" id="image_uzm_3gw_y1c"/><note id="note_r5b_jgw_y1c">For
+                more details on building visualizations with fields, see <xref
+                    href="https://help.tableau.com/current/pro/desktop/en-us/buildmanual_dragging.htm"
+                    format="html" scope="external">Start Building a Visualization by Dragging Fields
+                    to the View</xref>.</note></p>
+        <p>As you start exploring data in Tableau, you'll find there are many ways to build a view.
+            Tableau is extremely flexible, and also very forgiving. As you build a view, if you ever
+            take a path that isn't answering your question, you can always undo to a previous point
+            in your exploration.<ul id="ul_hph_ngw_y1c">
+                <li>To undo or redo, click undo ← or redo → on the toolbar.</li>
+            </ul></p>
+        <p>You can undo all the way back to the last time you opened the workbook. You can undo or
+            redo an unlimited number of times.</p>
+    </conbody>
+</concept>

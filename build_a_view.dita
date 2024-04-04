@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="build_a_view">
+    <title>Build the view</title>
+    <prolog>
+        <author type="creator">Shri</author>
+        <critdates>
+            <created date="2024-04-04"/>
+        </critdates>
+    </prolog>
+    <conbody>
+        <p>A <b>view</b> is a visualization or viz that you create in Tableau. A viz could be a
+            chart, a graph, a map, a plot, or even a text table. </p>
+        <p>Before you start building a view, consider the question or questions you're hoping to
+            answer with data. Every view that you build in Tableau should start with a question.
+            What do you want to know? </p>
+        <p>Every time you drag a field into the view or onto a shelf, you're asking a question about
+            the data. The question varies depending on the field you choose, where you place it, and
+            the order in which you add it to the view. </p>
+        <p>For every question you ask, the view changes to represent the answer visually with marks
+            represented by shapes, text, hierarchies, table structures, axes, color.</p>
+    </conbody>
+</concept>

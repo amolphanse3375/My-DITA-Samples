@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="connect_to_your_data">
+    <title>Connect to your data</title>
+    <shortdesc>The first step is to connect to the data you want to explore. </shortdesc>
+    <prolog>
+        <author type="creator">Shri</author>
+        <critdates>
+            <created date="2024-04-04"/>
+        </critdates>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>This example shows how to connect to Sample - Superstore data in Tableau Desktop.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open Tableau.</cmd>
+            </step>
+            <step>
+                <cmd>On the start page, under <b>Connect</b>, click Microsoft Excel.</cmd>
+            </step>
+            <step>
+                <cmd>In the Open dialog box, navigate to the <codeph>Sample - Superstore</codeph>
+                    Excel file on your computer.</cmd>
+            </step>
+            <step>
+                <cmd>Go to <codeph>/Documents/My Tableau Repository/Datasources/version
+                        number/[language]</codeph>.</cmd>
+            </step>
+            <step>
+                <cmd>Select Sample - Superstore, and then click <b>Open</b>.</cmd>
+            </step>
+            <step>
+                <cmd>After you connect to the Excel data, the Data Source page shows the sheets or
+                    tables in your data. Drag the "Orders" table to the canvas to start exploring
+                    that data. <image href="Picture1.png" id="image_lt2_w1w_y1c"/></cmd>
+                <info>Depending on how your data is structured, you might need to do more data
+                    preparation and integration before you start exploring it in Tableau. For more
+                    details on connecting to your data, see <xref
+                        href="https://help.tableau.com/current/pro/desktop/en-us/data.htm"
+                        format="html" scope="external">Connect to and Prepare Data</xref> and <xref
+                        href="https://help.tableau.com/current/pro/desktop/en-us/data_tips.htm"
+                        format="html" scope="external">Tips for Working with Your
+                    Data</xref>.</info>
+            </step>
+            <step>
+                <cmd>Click the sheet tab to go to the new worksheet and begin your analysis.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

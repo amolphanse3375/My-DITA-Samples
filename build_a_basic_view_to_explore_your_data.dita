@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="build_a_basic_view_to_explore_your_data">
+    <title>Build a Basic View to Explore Your Data</title>
+    <shortdesc>Applies to: Tableau Desktop</shortdesc>
+    <prolog>
+        <author type="contributor">Shri</author>
+        <critdates>
+            <!--Shri-->
+            <revised modified="2024-04-04"/>
+        </critdates>
+    </prolog>
+    <conbody>
+        <p>This topic uses the Sample - Superstore data source to walk through how to create basic
+            views and explore your data. It shows how your view of data in Tableau evolves through
+            your process of exploration.</p>
+        <p>If you're using Tableau Cloud and Tableau Server to explore data and edit views, see
+                <xref href="https://help.tableau.com/current/pro/desktop/en-us/web_author_home.htm"
+                format="html" scope="external">Use Tableau on the Web</xref>. </p>
+    </conbody>
+</concept>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="about_the_data_pane">
+    <title>About the Data pane</title>
+    <prolog>
+        <author type="creator">Shri</author>
+        <critdates>
+            <created date="2024-04-04"/>
+        </critdates>
+    </prolog>
+    <conbody>
+        <p>In the worksheet, the columns from your data source are shown as fields on the left side
+            in the Data pane. The Data pane contains a variety of fields organized by table. For
+            each table or folder in a data source, dimension fields appear above the gray line and
+            measure fields appear below the gray line. Dimension fields typically hold categorical
+            data such as product types and dates, while measure fields hold numeric data such as
+            sales and profit. Sometimes a table or folder will contain only dimensions, or only
+            measures to start with. For more information, see <xref
+                href="https://help.tableau.com/current/pro/desktop/en-us/datafields_typesandroles.htm"
+                format="html" scope="external">Dimensions and Measures, Blue and Green</xref>.</p>
+        <image href="Picture2.png" id="image_okj_qbw_y1c"/>
+        <p>For details on finding fields in the Data pane, see <xref
+                href="https://help.tableau.com/current/pro/desktop/en-us/datafields_dwfeatures.htm#Find"
+                format="html" scope="external">Find fields</xref>. For more information about parts
+            of the workspace, see <xref
+                href="https://help.tableau.com/current/pro/desktop/en-us/environment_workspace.htm"
+                format="html" scope="external">The Tableau Workspace</xref>.</p>
+        <p>If you have more than one data source in a workbook, click the data source connection
+            name in the Data pane to select it for use. For more details, see <xref
+                href="https://help.tableau.com/current/pro/desktop/en-us/multipleconnections_navigateconnections.htm"
+                format="html" scope="external">Navigating Data Sources in the Data Pane</xref>.<note
+                id="note_lw5_xbw_y1c">For details on the many ways you can customize the fields in
+                the data pane, see <xref
+                    href="https://help.tableau.com/current/pro/desktop/en-us/datafields_dwfeatures.htm"
+                    format="html" scope="external">Organize and Customize Fields in the Data
+                    Pane</xref>, <xref
+                    href="https://help.tableau.com/current/pro/desktop/en-us/datafields_fieldproperties.htm"
+                    format="html" scope="external">Edit Default Settings for Fields</xref>, and
+                    <xref
+                    href="https://help.tableau.com/current/pro/desktop/en-us/datafields_understanddatawindow.htm"
+                    format="html" scope="external">Work with Data Fields in the Data
+                Pane</xref>.</note></p>
+        <p>If you have related dimension fields, sometimes you might want to group them in a folder,
+            or as a hierarchy. For example, in this data source, Country, State, City, and Postal
+            Code are grouped into a hierarchy named Location. You can drill down into a hierarchy by
+            clicking the + sign in a field, or drill back up by clicking the - sign in a field.</p>
+    </conbody>
+</concept>

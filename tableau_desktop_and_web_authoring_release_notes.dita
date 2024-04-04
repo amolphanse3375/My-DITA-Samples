@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="tableau_desktop_and_web_authoring_release_notes">
+    <title>Tableau Desktop and Web Authoring Release Notes</title>
+    <shortdesc>Applies to: Tableau Cloud, Tableau Desktop, Tableau Server</shortdesc>
+    <prolog>
+        <author type="creator">Shri</author>
+        <critdates>
+            <created date="2024-04-04"/>
+        </critdates>
+    </prolog>
+    <conbody>
+        <p>This topic describes what’s new in the latest release. Use the viz below to explore new
+            features in Tableau Desktop and web authoring. Click a feature name to display a tooltip
+            with a link to documentation for that feature. Apply filters to refine your search.</p>
+        <p>
+            <ul id="ul_hbz_bxv_y1c">
+                <li>Click <b>Search by Feature</b> to see a list of new features for a product or
+                    version, or to explore when a feature was released. The dashboard currently
+                    defaults to Desktop (which includes web authoring features) and the latest
+                    released version of Tableau Desktop.</li>
+                <li>Click <b>Upgrade Desktop</b> to see a list of all features specific to Tableau
+                    Desktop and web authoring.</li>
+            </ul>
+        </p>
+        <note id="note_pqv_fxv_y1c" type="tip">Click the <b>Download</b> button in the viz toolbar
+            (while no feature names are selected), and then select Data to export the list to a CSV
+            file that you can customize.</note>
+    </conbody>
+</concept>

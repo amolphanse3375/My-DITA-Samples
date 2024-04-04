@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="getting_started">
+    <title>Getting Started</title>
+    <shortdesc>Applies to: Tableau Cloud, Tableau Desktop, Tableau Server</shortdesc>
+    <prolog>
+        <author type="creator">Shri</author>
+        <critdates>
+            <created date="2024-04-04"/>
+        </critdates>
+    </prolog>
+    <conbody>
+        <p>This section gives you the basics on getting started with building views in Tableau, the
+            Tableau workspace, and Tableau concepts.</p>
+        <p>For related topics and sites, also see:<ul id="ul_scg_nxv_y1c">
+                <li>Short walkthrough of Tableau Desktop: <xref
+                        href="https://help.tableau.com/current/pro/desktop/en-us/getstarted_buildmanual_ex1basic.htm"
+                        format="html" scope="external">Build a Basic View to Explore Your
+                        Data</xref></li>
+            </ul><ul id="ul_idr_pxv_y1c">
+                <li>In-depth Tableau Desktop tutorial: <xref
+                        href="https://help.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-home.htm"
+                        format="html" scope="external">Get Started with Tableau Desktop</xref></li>
+            </ul><ul id="ul_krl_sxv_y1c">
+                <li>On-demand webinars: <xref
+                        href="https://www.tableau.com/learn/series/secrets-of-visual-analytics?_gl=1*1mloa7n*_ga*MTQzNTU1MjY4My4xNzEyMjE5NjE1*_ga_8YLN0SNXVS*MTcxMjIxOTYxNC4xLjEuMTcxMjIyMDI4Mi4wLjAuMA..&amp;_ga=2.191197482.1278813579.1712219615-1435552683.1712219615"
+                        format="html" scope="external">Secrets of Visual Analytics </xref></li>
+            </ul><ul id="ul_h1b_vxv_y1c">
+                <li>Build basic chart types: <xref
+                        href="https://help.tableau.com/current/pro/desktop/en-us/dataview_examples.htm"
+                        format="html" scope="external">Build Common Chart Types in Data Views</xref>
+                    and <xref
+                        href="https://help.tableau.com/current/pro/desktop/en-us/what_chart_example.htm"
+                        format="html" scope="external">Choose the Right Chart Type for Your
+                        Data</xref></li>
+            </ul><ul id="ul_smy_yxv_y1c">
+                <li>Build maps: <xref
+                        href="https://help.tableau.com/current/pro/desktop/en-us/maps.htm"
+                        format="html" scope="external">Maps and Geographic Data Analysis in
+                        Tableau</xref></li>
+            </ul><ul id="ul_ekx_byv_y1c">
+                <li>Get started with using Tableau Cloud and Tableau Server: <xref
+                        href="https://help.tableau.com/current/pro/desktop/en-us/web_author_home.htm"
+                        format="html" scope="external">Use Tableau on the Web</xref>.</li>
+            </ul></p>
+        <section id="section_skw_hyv_y1c">
+            <title>Other articles in this section</title>
+            <p>
+                <ul id="ul_et3_jyv_y1c">
+                    <li><xref
+                            href="https://help.tableau.com/current/pro/desktop/en-us/getstarted_buildmanual_ex1basic.htm"
+                            format="html" scope="external">Build a Basic View to Explore Your
+                            Data</xref></li>
+                    <li><xref
+                            href="https://help.tableau.com/current/pro/desktop/en-us/environ_st.htm"
+                            format="html" scope="external">Tour the Tableau Environment</xref></li>
+                    <li><xref href="https://help.tableau.com/current/pro/desktop/en-us/concepts.htm"
+                            format="html" scope="external">Tableau Concepts</xref></li>
+                    <li><xref
+                            href="https://help.tableau.com/current/pro/desktop/en-us/bookshop_data.htm"
+                            format="html" scope="external">The Bookshop data set</xref></li>
+                    <li><xref
+                            href="https://help.tableau.com/current/pro/desktop/en-us/sign_in_server.htm"
+                            format="html" scope="external">Sign in to Tableau Server or Tableau
+                            Cloud</xref></li>
+                    <li><xref
+                            href="https://help.tableau.com/current/pro/desktop/en-us/what_chart_example.htm"
+                            format="html" scope="external">What Chart is right for you?</xref></li>
+                    <li><xref
+                            href="https://help.tableau.com/current/pro/desktop/en-us/config_proxy_oauth.htm"
+                            format="html" scope="external">Configure a Proxy with OAuth</xref></li>
+                    <li><xref
+                            href="https://help.tableau.com/current/pro/desktop/en-us/oauth_connectivity_overview.htm"
+                            format="html" scope="external">OAuth Overview</xref></li>
+                    <li><xref
+                            href="https://help.tableau.com/current/pro/desktop/en-us/perf_checklist.htm"
+                            format="html" scope="external">Tableau Workbook Performance
+                            Checklist</xref></li>
+                </ul>
+            </p>
+        </section>
+    </conbody>
+</concept>
