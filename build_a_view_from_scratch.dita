@@ -2,15 +2,62 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="build_a_view_from_scratch">
     <title>Build a view from scratch</title>
-    <shortdesc></shortdesc>
+    <shortdesc>These steps show how to build a basic view that shows year-by-year
+        profit.</shortdesc>
     <taskbody>
-        <context>
-            <p></p>
-        </context>
         <steps>
             <step>
-                <cmd></cmd>
+                <cmd>From the <b>Dimensions</b> area in the <b>Data</b> pane, drag the <b>Order
+                        Date</b> field to the <b>Columns</b> shelf. You might need to expand the
+                    Order hierarchy to see the Order Date. <image href="Picture1_12%20Apr%2024.png"
+                        id="image_ahb_rrc_bbc"/></cmd>
             </step>
+            <stepsection><p>When you drag a field over a shelf, a plus sign indicates that the shelf
+                    can accept the field.</p><p>The resulting table has four columns and one row.
+                    Each column header represents a member of the Order Date field (the default date
+                    level is YEAR). Each cell contains an “Abc” label, which indicates that the
+                    current mark type for this view is text.  </p><image
+                    href="Picture2_12%20Apr%2024.png" id="image_nw5_zrc_bbc"/><p>Notice that the
+                    field is colored blue, which indicates that it's <i>discrete</i>. For more
+                    information, see <xref
+                        href="https://help.tableau.com/current/pro/desktop/en-us/datafields_typesandroles.htm"
+                        format="html" scope="external">Dimensions and Measures, Blue and
+                        Green</xref>.</p><p>The default date level is determined by the highest
+                    level that contains more than one distinct value (for example, multiple years
+                    and multiple months). That means that if <b>[Order Date]</b> contained data for
+                    only one year but had multiple months, the default level would be a month. You
+                    can change the date level using the field menu. </p><image
+                    href="Picture3_12%20Apr%2024.png" id="image_nvz_3sc_bbc"/><p>If you're wondering
+                    why there are two sets of date levels (from Year down to Day), the first set of
+                    options uses date parts and the second set of options uses date values. For more
+                    information, see <xref
+                        href="https://help.tableau.com/current/pro/desktop/en-us/dates_levels.htm"
+                        format="html" scope="external">Change Date Levels</xref>.</p><note
+                    id="note_ayc_lsc_bbc" type="tip">
+                    <p>To hide the title on the sheet, select the drop-down to the right of the
+                        title (Sheet 1), and select <b>Hide Title</b>.</p>
+                </note><p>From the <b>Data</b> pane, drag the <b>Profit </b>field to the <b>Rows
+                    </b>shelf.</p></stepsection>
+            <step>
+                <cmd>From the <b>Data</b> pane, drag the <b>Profit </b>field to the <b>Rows
+                    </b>shelf. <image href="Picture4_12%20Apr%2024.png" id="image_drz_1tc_bbc"
+                    /></cmd>
+            </step>
+            <stepsection><p>The <b>Profit</b> field is colored green on the <b>Rows</b> shelf,
+                    indicating that it's continuous. Also, the field name changes to
+                        <b>SUM(Profit)</b>. That’s because measures are automatically aggregated
+                    when you add them to the view, and the default aggregation for this measure is
+                    SUM. For more information on what happens when you add a measure to a view—and
+                    why—see <xref
+                        href="https://help.tableau.com/current/pro/desktop/en-us/datafields_typesandroles.htm"
+                        format="html" scope="external">Dimensions and Measures, Blue and
+                        Green</xref>.</p><p>Tableau transforms the table into a line chart and
+                    creates a vertical axis (along the left side) for the measure.</p><p>A line
+                    chart is a great way to compare data over time and identify trends
+                    effectively.</p><p>This line chart shows profit over time. Each point along the
+                    line shows the sum of profit for the corresponding year. </p><image
+                    href="Picture5_12%20Apr%2024.png" id="image_ush_stc_bbc"/><p>The next step is to
+                    drill a little deeper into the time dimension.</p></stepsection>
         </steps>
     </taskbody>
 </task>
